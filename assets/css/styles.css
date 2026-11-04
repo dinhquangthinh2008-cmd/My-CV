@@ -17,7 +17,7 @@
   --color-accent: #7c3aed;       /* tím nhấn */
   --color-text: #1e293b;         /* chữ chính */
   --color-text-soft: #64748b;    /* chữ phụ */
-  --color-bg: #c4249c;           /* nền trang */
+  --color-bg: #12cdd4;           /* nền trang */
   --color-surface: #f8fafc;      /* nền vùng nhấn */
   --color-border: #163e72;       /* viền */
   --color-chip: #eff6ff;         /* nền chip kỹ năng */
@@ -452,4 +452,57 @@ ul {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* FORM LIEN HE */
+.contact-form {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #222;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #c02b91;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background: #b52b8c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #8e1d6c;
 }
